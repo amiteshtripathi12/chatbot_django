@@ -1,0 +1,279 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "paracetamol",
+      "patterns": [
+        "Explain paracetamol!",
+        "Tell me something about paracetamol!",
+        "Do you know a paracetamol?"
+      ],
+      "responses": [
+        "Paracetamol, also known as acetaminophen, is a medication used to treat fever and mild to moderate pain.",
+        "Common brand names include Tylenol and Panadol."
+      ]
+    },
+    {
+      "tag": "Amitriptyline",
+      "patterns": [
+        "Price of Amitriptyline!",
+        "Rate of Amitriptyline",
+        "Do you know price of a Amitriptyline?",
+        "Strength or power of Amitriptyline"
+      ],
+      "responses": [
+        "Price of Amitriptyline is $0.0072",
+        "Power or Strength of Amitriptyline is 25mg"
+      ]
+    },
+    {
+      "tag": "Amoxicillin",
+      "patterns": [
+        "Price of Amoxicillin",
+        "Rate of Amoxicillin",
+        "Do you know price of a Amoxicillin?",
+        "Strength or power of Amoxicillin"
+      ],
+      "responses": [
+        "Price of Amoxicillin is $0.0311",
+        "Power or Strength of Amoxicillin is 500mg"
+      ]
+    },
+    {
+      "tag": "Bisoprolol",
+      "patterns": [
+        "Price of Bisoprolol",
+        "Rate of Bisoprolol",
+        "Do you know price of a Bisoprolol?",
+        "Strength or power of Bisoprolol"
+      ],
+      "responses": [
+        "Price of Bisoprolol is $0.0660",
+        "Power or Strength of Bisoprolol is 5mg"
+      ]
+    },
+    {
+      "tag": "Captopril",
+      "patterns": [
+        "Price of Captopril",
+        "Rate of Captopril",
+        "Do you know price of a Captopril?",
+        "Strength or power of Captopril"
+      ],
+      "responses": [
+        "Price of Captopril is $0.0139",
+        "Power or Strength of Captopril is 25mg"
+      ]
+    },
+    {
+      "tag": "Ceftriaxone injection",
+      "patterns": [
+        "Price of Ceftriaxone injection",
+        "Rate of Ceftriaxone injection",
+        "Do you know price of a Ceftriaxone injection?",
+        "Strength or power of Ceftriaxone injection"
+      ],
+      "responses": [
+        "Price of Ceftriaxone injection is $0.7470",
+        "Power or Strength of Ceftriaxone injection is 1g/vial"
+      ]
+    },
+    {
+      "tag": "Ciprofloxacin",
+      "patterns": [
+        "Price of Ciprofloxacin",
+        "Rate of Ciprofloxacin",
+        "Do you know price of a Ciprofloxacin?",
+        "Strength or power of Ciprofloxacin"
+      ],
+      "responses": [
+        "Price of Ciprofloxacin is $0.7470",
+        "Power or Strength of Ciprofloxacin is 1g/vial"
+      ]
+    },
+    {
+      "tag": "Co-trimoxazole suspension",
+      "patterns": [
+        "Price of Co-trimoxazole suspension",
+        "Rate of Co-trimoxazole suspension",
+        "Do you know price of a Co-trimoxazole suspension?",
+        "Strength or power of Co-trimoxazole suspension"
+      ],
+      "responses": [
+        "Price of Co-trimoxazole suspension is $0.0050",
+        "Power or Strength of Co-trimoxazole suspension is 8+40mg/ml"
+      ]
+    },
+    {
+      "tag": "Diazepam",
+      "patterns": [
+        "Price of Diazepam",
+        "Rate of Diazepam",
+        "Do you know price of a Diazepam?",
+        "Strength or power of Diazepam"
+      ],
+      "responses": [
+        "Price of Diazepam is $0.0086",
+        "Power or Strength of Diazepam is 5mg"
+      ]
+    },
+    {
+      "tag": "Diclofenac",
+      "patterns": [
+        "Price of Diclofenac",
+        "Rate of Diclofenac",
+        "Do you know price of a Diclofenac?",
+        "Strength or power of Diclofenac"
+      ],
+      "responses": [
+        "Price of Diclofenac is $0.0067",
+        "Power or Strength of Diclofenac is 50mg"
+      ]
+    },
+    {
+      "tag": "Metformin",
+      "patterns": [
+        "Price of Metformin",
+        "Rate of Metformin",
+        "Do you know price of a Metformin?",
+        "Strength or power of Metformin"
+      ],
+      "responses": [
+        "Price of Metformin is $0.0169",
+        "Power or Strength of Metformin is 500mg"
+      ]
+    },
+    {
+      "tag": "Omeprazole",
+      "patterns": [
+        "Price of Omeprazole",
+        "Rate of Omeprazole",
+        "Do you know price of a Omeprazole?",
+        "Strength or power of Omeprazole"
+      ],
+      "responses": [
+        "Price of Omeprazole is $0.0180",
+        "Power or Strength of Omeprazole is 20mg"
+      ]
+    },
+    {
+      "tag": "Paracetamol suspension",
+      "patterns": [
+        "Price of Paracetamol suspension",
+        "Rate of Paracetamol suspension",
+        "Do you know price of a Paracetamol suspension?",
+        "Strength or power of Paracetamol suspension"
+      ],
+      "responses": [
+        "Price of Paracetamol suspension is $0.0054",
+        "Power or Strength of Paracetamol suspension is 24mg/ml"
+      ]
+    },
+    {
+      "tag": "Salbutamol inhaler",
+      "patterns": [
+        "Price of Salbutamol inhaler",
+        "Rate of Salbutamol inhaler",
+        "Do you know price of a Salbutamol inhaler?",
+        "Strength or power of Salbutamol inhaler"
+      ],
+      "responses": [
+        "Price of Salbutamol inhaler is $0.0105",
+        "Power or Strength of Salbutamol inhaler is 100 mcg/dose"
+      ]
+    },
+    {
+      "tag": "Simvastatin",
+      "patterns": [
+        "Price of Simvastatin",
+        "Rate of Simvastatin",
+        "Do you know price of a Simvastatin?",
+        "Strength or power of Simvastatin"
+      ],
+      "responses": [
+        "Price of Simvastatin is $0.0531",
+        "Power or Strength of Simvastatin is 100mg"
+      ]
+    }
+
+  ]
+}
